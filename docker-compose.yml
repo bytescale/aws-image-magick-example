@@ -4,4 +4,4 @@ services:
     platform: linux/amd64
     build: .
     volumes:
-      - ./binaries:/root/result
+      - ./binaries:/root/output
