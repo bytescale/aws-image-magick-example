@@ -6,12 +6,23 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
 
 ## Quick Start
 
-1. Run:
+1. Build the docker image:
 
-  ```shell
-  docker-compose up --build
-  ```
+   ```shell
+   docker build \
+     --platform linux/amd64 \
+     -t amazonlinuxmagick .
+   ```
 
-2. Wait for it to complete...
+2. Extract the docker image's ImageMagick binaries:
 
-3. `./binaries/result` on your host machine will now contain a portable set of ImageMagick binaries!
+   ```shell
+   docker run \
+     --rm -it \
+     --platform linux/amd64 \
+     -v $(pwd)/binaries:/root/output \
+     amazonlinuxmagick \
+     mv /root/result /root/output
+   ```
+
+3. `./binaries/result` on your host machine now contains a portable set of ImageMagick binaries!

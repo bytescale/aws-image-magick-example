@@ -19,5 +19,3 @@ RUN /root/build/build_lcms.sh
 
 # And finally...
 RUN /root/build/build_imagemagick.sh
-
-ENTRYPOINT mv /root/result /root/output
