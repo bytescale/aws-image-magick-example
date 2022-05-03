@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  imagemagick:
+    platform: linux/amd64
+    build: .
+    volumes:
+      - ./binaries:/root/result
