@@ -14,4 +14,4 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
 
 2. Wait for it to complete...
 
-3. The `./binaries` directory will now contain a portable set of ImageMagick binaries!
+3. `./binaries/result` on your host machine will now contain a portable set of ImageMagick binaries!
