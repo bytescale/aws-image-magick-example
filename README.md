@@ -6,7 +6,14 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
 
 ## Quick Start
 
-1. Build the docker image:
+1. Checkout the repository:
+ 
+   ```bash
+   git clone git@github.com:upload-io/aws-image-magick-example.git
+   cd aws-image-magick-example
+   ```
+   
+2. Build the docker image:
 
    ```shell
    docker build \
@@ -14,7 +21,7 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
      -t amazonlinuxmagick .
    ```
 
-2. Extract the docker image's ImageMagick binaries:
+3. Extract the docker image's ImageMagick binaries:
 
    ```shell
    docker run \
@@ -25,4 +32,4 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
      mv /root/result /root/output
    ```
 
-3. `./binaries/result` on your host machine now contains a portable set of ImageMagick binaries!
+4. `./binaries/result` on your host machine now contains a portable set of ImageMagick binaries!
