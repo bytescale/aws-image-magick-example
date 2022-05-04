@@ -10,6 +10,7 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
  
    ```bash
    git clone git@github.com:upload-io/aws-image-magick-example.git
+   
    cd aws-image-magick-example
    ```
    
