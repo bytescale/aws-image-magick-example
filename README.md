@@ -2,7 +2,7 @@
 
 This repository builds standalone ImageMagick binaries for Amazon Linux 2 that can be copy-pasted to any AWS Lambda function or EC2 instance.
 
-**Original blog post:** https://upload.io/blog/installing-imagemagick-on-amazon-linux-2/
+**Blog post:** https://upload.io/blog/installing-imagemagick-on-amazon-linux-2/
 
 ## Quick Start
 
