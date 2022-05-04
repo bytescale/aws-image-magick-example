@@ -4,6 +4,8 @@ This repository builds standalone ImageMagick binaries for Amazon Linux 2 that c
 
 **Blog post:** https://upload.io/blog/installing-imagemagick-on-amazon-linux-2/
 
+**AWS Lambda Full Example:** https://github.com/upload-io/aws-lambda-image-magick-resize-example
+
 ## Quick Start
 
 1. Checkout the repository:
