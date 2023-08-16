@@ -2,16 +2,16 @@
 
 This repository builds standalone ImageMagick binaries for Amazon Linux 2 that can be copy-pasted to any AWS Lambda function or EC2 instance.
 
-**Blog post:** https://upload.io/blog/installing-imagemagick-on-amazon-linux-2/
+**Blog post:** https://www.bytescale.com/blog/installing-imagemagick-on-amazon-linux-2/
 
-**AWS Lambda Full Example:** https://github.com/upload-io/aws-lambda-image-magick-resize-example
+**AWS Lambda Full Example:** https://github.com/bytescale/aws-lambda-image-magick-resize-example
 
 ## Quick Start
 
 1. Checkout the repository:
  
    ```bash
-   git clone git@github.com:upload-io/aws-image-magick-example.git
+   git clone git@github.com:bytescale/aws-image-magick-example.git
    
    cd aws-image-magick-example
    ```
